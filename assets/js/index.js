@@ -12,9 +12,9 @@ var nav = document.querySelector('.navbar');
 
 $(document).scroll(function () {    
     if($(this).scrollTop() > $(window).height()){
-        nav.addClass('change');
+        nav.classList.add('change');
     }else {
-        nav.removeClass('change');
+        nav.classList.remove('change');
     }
 });
 
