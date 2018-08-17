@@ -1,0 +1,56 @@
+.titulo{
+    font-size: 4.7vh;
+    font-weight: bold;
+}
+
+.texto1{
+    font-size: 2.3vh;
+}  
+
+  .grid-flex {
+    display: flex;
+    flex-direction: row; 
+  }
+  .col-text{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;    
+  }
+  .Aligner-item{
+      display: flex;
+      flex-direction: column;
+  }
+  .col-image {
+    flex:0.5;
+    background-size: cover;
+    background-position:center center;
+  }
+  
+  @media (max-width: 640px) {
+    .grid-flex {
+      height: 40em;
+      flex-direction: column; 
+     }
+    .col-text{
+        flex-grow: 0;
+        justify-content: flex-start;
+    }
+    .cole {
+      order:vertical;
+    }
+  }
+
+  @media (max-width: 1000px){
+      .containerP /*desde Index.css*/{
+          margin-right: 30px;
+          margin-left: 30px;
+      }
+      .col-image{
+          flex:1;
+      }
+  }
+  
+  
+  

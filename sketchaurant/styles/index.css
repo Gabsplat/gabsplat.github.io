@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image: url('../images/fondobg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;    
+}
+
+.containerP{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* botón */
+
+.botonCONTACTO{
+    font-size: 30px;
+    margin-top: 30px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 5px black solid;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    transition: all ease-in-out 0.2s;
+}
+
+.botonCONTACTO:hover{
+    transition: all ease-in-out 0.2s;
+    font-size: 32px;
+    text-decoration: none;
+    font-style: none;
+    color: black;
+    background-color: rgb(246, 246, 246);
+}
+
+/* Botón Modal */
+
+.botonModal{
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    padding: 6px 12px 6px 12px;
+    
+}
+
+.botonModal:hover{
+    -webkit-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+}
+
+/* flexModal */
+
+.flexModal{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1550px){  }
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 788px) {  }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {  
+}
+
+
+
+
+

@@ -1,0 +1,36 @@
+.infor{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width:96%;
+    margin-right: 2%;
+    margin-left: 2%;
+    box-sizing: border-box;
+    border: 10px solid black;
+    padding: 30px;
+    -moz-box-sizing: border-box;
+    height: 640px;
+}
+
+.tituloinformacion{
+    font-weight: bolder;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.tituloinformacion2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#lista{
+    margin-left: 30px;
+}
+@media only screen and (max-width: 980px){
+    .infor{
+        height: auto;
+    }
+    .tituloinformacion{
+        font-size: 40px;
+    }
+}

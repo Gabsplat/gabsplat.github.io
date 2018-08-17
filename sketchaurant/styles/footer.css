@@ -1,0 +1,39 @@
+/* footer */
+
+.footers{
+    margin-top: 20px;
+    height: 140px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footers a{
+    color: rgb(32, 32, 32);
+}
+
+.footers .fab{
+    font-size: 1.5em;
+    margin-left: 15px;
+}
+
+.footers .fab:hover{
+    color: #3b5998;
+}
+
+.fa-heart{
+    transition: .5s all;
+}
+
+.fa-heart:hover{
+    transition: .5s all;
+    color: red;
+}
+
+@media (max-width: 576px) {  
+    .footers{
+        flex-direction: column;
+    }
+}
