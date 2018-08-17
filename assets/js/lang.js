@@ -67,15 +67,20 @@ function addEnglish(){
     updateContent('en')
 }
 
+
+
 if(localStorage.length !== 1){
     var browserLang = navigator.languages || navigator.userLanguage; 
-    updateContent(navigator.languages[1]);
+    if(navigator.languages[1] == "es"){
+        updateContent("es");
+    } else{
+        updateContent("en");
+    }
 } else{
     updateContent(localStorage.getItem("lang"));
 }
 
 function updateContent(lang) {
-    console.log(lang)
     // get all elements that need translating
     const l10nElements = document.body.querySelectorAll('[data-l10n]');
     let identifier = "";
