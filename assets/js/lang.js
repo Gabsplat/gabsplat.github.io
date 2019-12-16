@@ -18,7 +18,7 @@ const languages = {
         proyectos_img2_descripcion: "COMING SOON",
         // page 2
         about_titulo: "ABOUT ME",
-        about_parrafo1: "Hi! My name is Gabriel Pérez Diez, I'm 17 years old and I'm from Mendoza, Argentina. Currently I study for school, and I build websites. I'd like to keep learning about web design and development, and I am always open to accept criticism about my work to get better.",
+        about_parrafo1: "Hi! My name is Gabriel Pérez Diez, I'm 18 years old and I'm from Mendoza, Argentina. Currently I study for school, and I build websites. I'd like to keep learning about web design and development, and I am always open to accept criticism about my work to get better.",
         about_parrafo2: "I like to use the computer, meet with friends and watch TV series. I have good relationship with people around me and I'm very straightforward with people.",
         experience_titulo: "EXPERIENCE",
         experience_1: "#MUJERSEGURA HACKATHON 3RD PLACE - 26/09/17",
@@ -44,7 +44,7 @@ const languages = {
         proyectos_img2_descripcion: "COMING SOON",
         // page 2
         about_titulo: "SOBRE MÍ",
-        about_parrafo1: "¡Hola! Mi nombre es Gabriel Pérez Diez, tengo 17 años y soy de Mendoza, Argentina. Actualmente me dedico a estudiar, y al desarrollo de sitios web. Estoy interesado en progresar y seguir aprendiendo más sobre el diseño/desarrollo web, abierto a recibir críticas sobre lo que hago y mejorar.",
+        about_parrafo1: "¡Hola! Mi nombre es Gabriel Pérez Diez, tengo 18 años y soy de Mendoza, Argentina. Actualmente me dedico a estudiar, y al desarrollo de sitios web. Estoy interesado en progresar y seguir aprendiendo más sobre el diseño/desarrollo web, abierto a recibir críticas sobre lo que hago y mejorar.",
         about_parrafo2: "Me gusta usar la computadora, juntarme con amigos y ver series de televisión. Tengo buena relación con las personas que me rodean y soy bastante directo en algunas ocasiones.",
         experience_titulo: "EXPERIENCIA",
         experience_1: "HACKATHON #MUJERSEGURA 3ER PUESTO - 26/09/17",
