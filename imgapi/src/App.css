@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+:root{
+
+    /* Font Size */
+
+    --base-size: .6em;
+    --type-scale: 1.25;
+    --h5: calc(var(--base-size) * var(--type-scale));
+    --h4: calc(var(--h5) * var(--type-scale));
+    --h3: calc(var(--h4) * var(--type-scale));
+    --h2: calc(var(--h3) * var(--type-scale));
+    --h1: calc(var(--h2) * var(--type-scale));
+
+    /* Colors */
+
+    --red: hsl(0, 100%, 74%) ;
+    --green: hsl(154, 59%, 51%);
+    --blue: hsl(248, 32%, 49%);
+    --dark-blue: hsl(249, 10%, 26%);
+    --grayish-blue: hsl(246, 25%, 77%);
+}
+
+html{
+    font-size:16px;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-weight: 500;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    background-color: rgb(34, 34, 34) !important;
+    height: 100vh;
+    text-align: center !important;
+}
+
+body{    
+    background-image: url('./imgs/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    line-height: 1.15;
+    width: 100%;
+}
+
+
+Form input[type="text"]{
+    border-radius: 2px;
+    border-style: none;
+    padding: 5px 0px 5px 15px;
+    width: 100%;
+    color: white ;
+    background-color: rgba(255, 255, 255, 0.288);
+}
+
+Form input[type="text"]::placeholder{
+    color: white
+}
+
+.mainTitle{
+    text-align: left;
+    margin-bottom: .5em; 
+    font-size: 3em;
+    color: white
+}
+
+.formAlign{
+    height: 80%;
+    display: flex; 
+    flex-direction: column;
+    margin-top: -2em;
+    justify-content: center
+}
+
+.formAlignTop{
+    height: auto;
+    transition: height .2s;
+}
+
+.imgMasonry{
+    padding: 5px;
+    width: 33%;
+}
+
+
+
+.iconInput{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+
+}
+
+.info{
+    cursor: pointer;
+}
+
+.modalInfo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modalOverlayInfo{
+    position: fixed;
+    top: 10%;
+    left: 20%;
+    right: 20%;
+    bottom: 10%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+}
+
+.modalData{
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.modalData > a{
+    position: absolute;
+    right: 3%;
+    bottom: 3%;
+    border: 2px solid rgb(228, 228, 228);
+    background-color: #fff;
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+    padding: 6px 20px;
+}
+
+.modalData > a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(250, 250, 250);
+}
+
+.mdClose{
+    position: absolute;
+    cursor: pointer;
+    right: 1%;
+    top: 1%;
+    color: black;
+}
+
+.imgModal{
+    height: 100%;
+}
+
+.user{
+    top: 1%;
+    left: 1%;
+    position: absolute;
+}
+
+.user a{
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+    display: inline;
+}
+
+.user a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width: 1229px){
+    .modalOverlayInfo{
+        left: 4.5%;
+        right: 4.5%;
+
+    }
+
+    body{
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (max-width: 450px){
+    .imgModal{
+        width: 100%;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 550px){
+    .imgMasonry{
+        width: 100%;
+    }
+
+    .mainTitle{
+        font-size: 2em;
+    }
+
+    .user a, .user a:hover{
+        color: rgb(255, 255, 255);
+        text-shadow: black;
+    }
+
+    .mdClose{
+        color: white;
+    }
+
+    .modalData > a{
+        left: 4%;
+        right: 4%;
+    }
+
+    
+    
+}
