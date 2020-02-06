@@ -22,6 +22,10 @@ function goToSketchaurant(){
     window.location.replace('/sketchaurant/index.html');
 }
 
+function goToImgApi(){
+    window.location.replace('/imageApiReact/')     
+}
+
 /* CHARTS */
 
 jQuery('.skillbar').each(function(){

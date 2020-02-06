@@ -41,7 +41,7 @@ const languages = {
         habilidad_item2_descripcion: "Tengo la capacidad de aprender nuevas tecnologías rapidamente y adecuarme al espacio de trabajo sin problemas.",
         proyectos_titulo: "Proyectos",
         proyectos_img1_descripcion: "Página web para un restaurante de comida china llamado 'Sketchá'. <br> (FICTIO)",
-        proyectos_img2_descripcion: "COMING SOON",
+        proyectos_img2_descripcion: "Página web para descargar imagenes libres de derechos de autor. (Unsplash API)",
         // page 2
         about_titulo: "SOBRE MÍ",
         about_parrafo1: "¡Hola! Mi nombre es Gabriel Pérez Diez, tengo 18 años y soy de Mendoza, Argentina. Actualmente me dedico a estudiar, y al desarrollo de sitios web. Estoy interesado en progresar y seguir aprendiendo más sobre el diseño/desarrollo web, abierto a recibir críticas sobre lo que hago y mejorar.",
