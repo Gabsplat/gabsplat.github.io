@@ -23,7 +23,7 @@ function goToSketchaurant(){
 }
 
 function goToImgApi(){
-    window.location.replace('/imageApiReact/')     
+    window.location.replace('/imageapireact/')     
 }
 
 /* CHARTS */
