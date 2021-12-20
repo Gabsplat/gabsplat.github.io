@@ -293,8 +293,8 @@ header{
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         grid-gap: 2vh;
         grid-template-rows: minmax(min-content, max-content);
-
         .item{
+            height: auto;
             margin: .5vh;            
             h1{        
                 font-weight: 400;
@@ -310,11 +310,10 @@ header{
             p{
                 text-align: center;
                 font-size: 2.7vh;
-                height: 100px;
+                margin-top: 0;
 
                 @include screens(medium-screen){
                     font-size: 3.5vh;
-                    margin-top: 0;
                 }
             }
 
@@ -347,7 +346,7 @@ header{
             position: relative;
             padding: 2vh;
 
-            &:visited{
+            &:visited, &:link, &:active{
                 color: black;
             }
             

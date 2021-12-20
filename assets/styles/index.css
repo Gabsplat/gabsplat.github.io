@@ -356,6 +356,7 @@ header i {
 }
 
 #habilidad .cards .item {
+  height: auto;
   margin: .5vh;
 }
 
@@ -375,13 +376,12 @@ header i {
 #habilidad .cards .item p {
   text-align: center;
   font-size: 2.7vh;
-  height: 100px;
+  margin-top: 0;
 }
 
 @media only screen and (max-width: 768px) {
   #habilidad .cards .item p {
     font-size: 3.5vh;
-    margin-top: 0;
   }
 }
 
@@ -419,7 +419,7 @@ header i {
   padding: 2vh;
 }
 
-#proyectos .imgGrid .img:visited {
+#proyectos .imgGrid .img:visited, #proyectos .imgGrid .img:link, #proyectos .imgGrid .img:active {
   color: black;
 }
 
