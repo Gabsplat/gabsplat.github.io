@@ -1,3 +1,3 @@
-# Gabriel Pérez Diez - Personal Portfolio
+# gabsplat.github.io
 
-This is my personal portfolio.
+El portfolio se mudó a https://gabsplat.dev. Estas páginas redirigen ahí.
